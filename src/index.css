@@ -1,13 +1,93 @@
-body {
+*{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Noah-Regular";
+}
+@font-face {
+  font-family: "Noah-Medium";
+  src: url(fonts/Noah-Medium.ttf);
+}
+@font-face {
+  font-family: "Noah-Regular";
+  src: url(fonts/Noah-Regular.ttf);
+}
+button:hover{
+  cursor: pointer;
+}
+header{
+  backdrop-filter: blur(30px);
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+}
+.logo svg{
+  max-height: 65px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slogan{
+  font-weight: 500;
+    font-size: 23px;
+    line-height: 145.4%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header__enter-btn{
+  border-radius: 10px;
+  border:none;
+  color:white;
+  height: 24px;
+  width: 50px;
+  background: linear-gradient(to right,rgba(255, 100, 12, 1),rgba(255, 80, 106, 1) 50%, rgba(127, 0, 205, 1));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.try__btn{
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px 13px;
+  gap: 10px;
+  color: white;
+  background: linear-gradient(to right, rgba(255, 100, 12, 1), rgba(255, 80, 106, 1) 50%, rgba(127, 0, 205, 1));
+}
+.rocket-boy{
+  background: url("pictures/rocket-boy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 410px;
+  height: 410px;
+  margin: 12px 0 100px 0;
+}
+.graphic{
+  background: url("pictures/graphic.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec-two__title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 145.4%;
+    background: linear-gradient(88.6deg, #FF640C 0%, #FF506A 47.3%, #7F00CD 93.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 21px;
+}
+.benefits_list{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 151.4%;
+    padding-left: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
 }

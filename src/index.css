@@ -84,10 +84,85 @@ header{
 .benefits_list{
     font-weight: 400;
     font-size: 16px;
-    line-height: 151.4%;
+    line-height: 24px;
     padding-left: 12px;
     display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
     flex-direction: column;
     align-items: flex-start;
-    
+    padding-left: 35px;
+}
+.benefits_list-item{
+  margin-bottom: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(41, 41, 41, 1);
+}
+.section-two .try__btn{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 23px;
+}
+.catalog{
+
+}
+.catalog-category{
+  border: 1px solid linear-gradient(88.6deg, #FF640C 0%, #FF506A 47.3%, #7F00CD 93.16%);
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 10px;
+  
+}
+.catalog-category-img-1{
+  background: url("pictures/bacalavr.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 155px;
+  height: 129px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+  
+}
+.catalog-category-img-2{
+  background: url("pictures/palette.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 155px;
+  height: 129px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+}
+.catalog-category-img-3{
+  background: url("pictures/caseStudy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 155px;
+  height: 129px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+}
+.catalog-category-img-4{
+  background: url("pictures/balls.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 155px;
+  height: 129px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
 }

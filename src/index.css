@@ -30,19 +30,37 @@ header{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
-.slogan{
-  font-weight: 500;
-    font-size: 23px;
-    line-height: 145.4%;
+  padding: 12px 0 13px 0;
+  margin-left: 21px; 
 }
 
+.slogan{
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 145.4%;
+  text-align: start;
+}
+.slogan-sec-one{
+  margin-top: 262px;
+  width: 320px;
+  margin-left: 23px;
+  margin-bottom: 28px;
+}
+.section-one{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.section-two{
+  margin-top: 100px;
+}
 .header__enter-btn{
   border-radius: 10px;
   border:none;
   color:white;
   height: 24px;
   width: 50px;
+  margin-right: 23px;
   background: linear-gradient(to right,rgba(255, 100, 12, 1),rgba(255, 80, 106, 1) 50%, rgba(127, 0, 205, 1));
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -50,7 +68,7 @@ header{
   border: 1px solid white;
   border-radius: 10px;
   padding: 10px 13px;
-  gap: 10px;
+  margin-left: 23px;
   color: white;
   background: linear-gradient(to right, rgba(255, 100, 12, 1), rgba(255, 80, 106, 1) 50%, rgba(127, 0, 205, 1));
 }
@@ -60,12 +78,15 @@ header{
   background-repeat: no-repeat;
   width: 410px;
   height: 410px;
-  margin: 12px 0 100px 0;
+  margin: 12px 0 0 25px;
 }
 .graphic{
   background: url("pictures/graphic.png");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 272px;
+    height: 272px;
+    
 }
 .sec-two__title{
     font-style: normal;
@@ -105,16 +126,34 @@ header{
   margin-left: 23px;
 }
 .catalog{
-
-}
-.catalog-category{
-  border: 1px solid linear-gradient(88.6deg, #FF640C 0%, #FF506A 47.3%, #7F00CD 93.16%);
-  border-radius: 10px;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 10px 10px;
+  gap: 35px 35px;
+  margin: 0 auto;
+  width: calc(100vw - 46px);
+  text-transform: uppercase;
+}
+.slogan-sec-three{
+  background: linear-gradient(88.6deg, #FF640C 0%, #FF506A 47.3%, #7F00CD 93.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: start;
+    width: 250px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.catalog-category{
+  background: linear-gradient(#fff, #fff) padding-box,
+      linear-gradient(88.6deg, #FF640C 0%, #FF506A 47.3%, #7F00CD 93.16%) border-box;
+  border: 1px solid transparent;
+  border-radius: 10px;
+ 
+  height: 129px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
   
 }
 .catalog-category-img-1{
@@ -122,12 +161,9 @@ header{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 155px;
-  height: 129px;
-  display: flex;
-  flex-direction: column;
-  justify-self: center;
-  align-self: center;
+  width: 57px;
+  height: 57px;
+  border:none;
   
 }
 .catalog-category-img-2{
@@ -135,34 +171,34 @@ header{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 155px;
-  height: 129px;
-  display: flex;
-  flex-direction: column;
-  justify-self: center;
-  align-self: center;
+  width: 57px;
+  height: 57px;
+  border:none;
 }
 .catalog-category-img-3{
   background: url("pictures/caseStudy.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 155px;
-  height: 129px;
-  display: flex;
-  flex-direction: column;
-  justify-self: center;
-  align-self: center;
+  width: 57px;
+  height: 57px;
+  border:none;
 }
 .catalog-category-img-4{
   background: url("pictures/balls.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 155px;
-  height: 129px;
-  display: flex;
-  flex-direction: column;
-  justify-self: center;
-  align-self: center;
+  width: 57px;
+  height: 57px;
+  border:none;
+}
+.catalog-category-5{
+  grid-column: 1/3;
+  width: calc(100%);
+}
+.orb {
+  background: linear-gradient(88.6deg, #FF640C 0%, #FF506A 47.3%, #7F00CD 93.16%);
+  border-radius: 50%;
+  z-index: 0;
 }

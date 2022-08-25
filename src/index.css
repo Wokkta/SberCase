@@ -17,7 +17,7 @@ button:hover{
 }
 header{
   backdrop-filter: blur(30px);
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100vw;
   display: flex;

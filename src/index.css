@@ -41,9 +41,8 @@ header{
   text-align: start;
 }
 .slogan-sec-one{
-  margin-top: 262px;
+  margin-top: 162px;
   width: 320px;
-  margin-left: 23px;
   margin-bottom: 28px;
   
 }
@@ -63,9 +62,27 @@ header{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-left: 23px;
 }
 .section-two{
   margin-top: 100px;
+  margin-left: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+.section-two .slogan span:nth-child(even){
+  background: linear-gradient(88.6deg, #FF640C 0%, #FF506A 47.3%, #7F00CD 93.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.section-two .slogan span:nth-child(odd){
+  background: #FF640C;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .header__enter-btn{
   border-radius: 10px;
@@ -81,7 +98,6 @@ header{
   border: 1px solid white;
   border-radius: 10px;
   padding: 10px 13px;
-  margin-left: 23px;
   color: white;
   background: linear-gradient(to right, rgba(255, 100, 12, 1), rgba(255, 80, 106, 1) 50%, rgba(127, 0, 205, 1));
 }
@@ -99,6 +115,9 @@ header{
     background-repeat: no-repeat;
     width: 272px;
     height: 272px;
+  align-self: flex-end;
+  margin-bottom: 28px;
+    
     
 }
 .sec-two__title{
@@ -107,13 +126,11 @@ header{
     font-size: 23px;
     line-height: 145.4%;
     background: linear-gradient(88.6deg, #FF640C 0%, #FF506A 47.3%, #7F00CD 93.16%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     display: flex;
     justify-content: flex-start;
-    padding-left: 21px;
+  
 }
 .benefits_list{
     font-weight: 400;
@@ -125,7 +142,7 @@ header{
     width: 100vw;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 35px;
+    padding-left: 15px;
 }
 .benefits_list-item{
   margin-bottom: 12px;
@@ -133,10 +150,8 @@ header{
   text-align: left;
   color: rgba(41, 41, 41, 1);
 }
-.section-two .try__btn{
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 23px;
+.section-three{
+  margin-top: 100px;
 }
 .catalog{
   display: grid;
@@ -196,6 +211,7 @@ header{
   width: 57px;
   height: 57px;
   border:none;
+  
 }
 .catalog-category-img-4{
   background: url("pictures/balls.png");
@@ -205,6 +221,15 @@ header{
   width: 57px;
   height: 57px;
   border:none;
+}
+.catalog-category-img-5{
+  background: url("pictures/socActive.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 57px;
+    height: 57px;
+    border: none;
 }
 .catalog-category-5{
   grid-column: 1/3;

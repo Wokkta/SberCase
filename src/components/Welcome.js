@@ -5,7 +5,7 @@ import Try_Btn from "./Try_Btn";
 import { useState } from "react";
 export default function Welcome(props) {
   return (
-    <>
+    <>{/*
       <Header logged={props.logged} />
       <section className="section-one">
         <div className="slogan slogan-sec-one">
@@ -15,9 +15,10 @@ export default function Welcome(props) {
         <Try_Btn />
         <div className="rocket-boy"></div>
       </section>
-      {/*<Benefits />*/}
+      <Benefits />
+       */}
       <section className="section-three">
-        {/*<Catalog />*/}
+        <Catalog />
       </section>
       
     </>

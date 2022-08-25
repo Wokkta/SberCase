@@ -1,11 +1,11 @@
 import Try_Btn from "./Try_Btn";
 
 export default function Benefits(params) {
-  return(
+  return(<>
     <section className="section-two benefits">
         <div className="slogan">
-          Помогаем родителям сориентироваться в многообразии курсов, секций,
-          мероприятий и сделать правильный выбор.
+          <span>Помогаем</span> родителям<br /> сориентироваться в многообразии курсов, секций,
+          мероприятий и <span>сделать</span> <span>правильный выбор.</span>
         </div>
         <div className="graphic"></div>
         <h2 className="sec-two__title">Вы получите:</h2>
@@ -26,5 +26,7 @@ export default function Benefits(params) {
         </ul>
         <Try_Btn />
       </section>
+      
+      </>
   )
 }

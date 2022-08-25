@@ -103,6 +103,7 @@ header{
 .header__enter-btn{
   border-radius: 10px;
   border:none;
+  box-shadow: none;
   color:white;
   height: 24px;
   width: 50px;
@@ -317,6 +318,7 @@ header{
 .footer-top{
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   gap:50px;
 }
 footer{
@@ -345,8 +347,8 @@ footer .slogan{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 24px;
-  width: 24px;
+  height: 16px;
+  width: 16px;
 }
 .policy{
   font-weight: 400;

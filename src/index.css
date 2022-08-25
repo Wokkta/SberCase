@@ -106,9 +106,15 @@ header{
   background: url("pictures/rocket-boy.png");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 405px;
-  height: 405px;
+  padding-bottom: 100%;
   margin: 12px 0 0 ;
+  width: calc(100vw - 23px);
+  
+  
+}
+.image{
+  max-height: 410px;
+  max-width: 410px;
 }
 .graphic{
   background: url("pictures/graphic.png");

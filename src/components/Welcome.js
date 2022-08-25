@@ -13,7 +13,9 @@ export default function Welcome(props) {
           <span>под интересы Вашего ребенка</span>
         </div>
         <Try_Btn />
-        <div className="rocket-boy"></div>
+        <div className="image">
+          <div className="rocket-boy"></div>
+        </div>
       </section>
       <Benefits />
 
@@ -21,9 +23,7 @@ export default function Welcome(props) {
         <Catalog />
         <Try_Btn />
       </section>
-      <section className="section-four">
-        
-      </section>
+      <section className="section-four"></section>
     </>
   );
 }

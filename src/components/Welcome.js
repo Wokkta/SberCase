@@ -3,6 +3,8 @@ import Catalog from "./Catalog";
 import Header from "./Header";
 import Try_Btn from "./Try_Btn";
 import { useState } from "react";
+import Versions from "./Versions";
+import Footer from "./Footer";
 export default function Welcome(props) {
   return (
     <>
@@ -18,12 +20,14 @@ export default function Welcome(props) {
         </div>
       </section>
       <Benefits />
-
       <section className="section-three">
         <Catalog />
         <Try_Btn />
       </section>
-      <section className="section-four"></section>
+      <section className="section-four">
+        <Versions />
+      </section>
+      <Footer />
     </>
   );
 }

@@ -9,8 +9,8 @@ export default function Welcome(props) {
       <Header logged={props.logged} />
       <section className="section-one">
         <div className="slogan slogan-sec-one">
-          Создайте подборку мероприятий, секции и курсов под интересы Вашего
-          ребенка
+          Создайте <span>подборку </span>мероприятий, секции и курсов <span>под интересы Вашего
+          ребенка</span>
         </div>
         <Try_Btn />
         <div className="rocket-boy"></div>

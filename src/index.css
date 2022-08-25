@@ -45,6 +45,19 @@ header{
   width: 320px;
   margin-left: 23px;
   margin-bottom: 28px;
+  
+}
+.slogan-sec-one span{
+  background: linear-gradient(88.6deg, #FF640C 0%, #FF506A 47.3%, #7F00CD 93.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.slogan-sec-one span:first-child
+{
+  background:  #FF640C ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
 }
 .section-one{
   display: flex;

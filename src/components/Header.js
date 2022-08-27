@@ -9,11 +9,8 @@ export default function Header(props) {
   return (
     <>
       <header>
-        {logo ? (
-          <Logo onClick={handleClick} />
-        ) : (
-          <SubMenu onClick={handleClick} />
-        )}
+        <Logo onClick={handleClick} />
+        <SubMenu onClick={handleClick} />
         {props.logged || <button className="header__enter-btn">ВХОД</button>}
       </header>
     </>

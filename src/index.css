@@ -35,6 +35,7 @@ header{
 }
 .logo svg{
   max-height: 65px;
+  width: 42px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

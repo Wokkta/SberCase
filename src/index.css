@@ -53,11 +53,11 @@ header{
   font-size: 6.3vw;
   line-height: 145.4%;
   text-align: start;
+  word-wrap: break-word;
 }
 .slogan-sec-one{
   margin-top: 162px;
-  width: 320px;
-  margin-bottom: 28px;
+  margin-bottom: 8px;
   
 }
 .slogan-sec-one span{
@@ -307,6 +307,7 @@ header{
 }
 .version-benef-item{
   margin-bottom: 12px;
+  margin-left: 16px;
     letter-spacing: 0em;
     text-align: left;
     color: rgba(41, 41, 41, 1);

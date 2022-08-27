@@ -1,7 +1,7 @@
 export default function Logo(params) {
   return (
     <a href="#" className="logo" onClick={params.onClick}>
-      <svg classname="logo__svg" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg className="logo__svg" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
   <line x1="6.36399" y1="5.65682" x2="18.3848" y2="17.6776" stroke="url(#paint0_linear_16_668)" />
   <line x1="5.65688" y1="17.6777" x2="17.6777" y2="5.65688" stroke="url(#paint1_linear_16_668)" />
   <defs>

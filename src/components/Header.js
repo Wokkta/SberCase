@@ -1,5 +1,4 @@
 import Logo from "./Logo"
-import Cross from "./Cross";
 import { useState } from "react";
 import SubMenu from "./SubMenu";
 export default function Header(props) {
@@ -9,10 +8,14 @@ export default function Header(props) {
   }
   return (
     <>
-    {logo ? <Logo onClick={handleClick} /> : <SubMenu onClick={handleClick}/>}
-    <header>
-      {props.logged || <button className="header__enter-btn">ВХОД</button>}
-    </header>
+      <header>
+        {logo ? (
+          <Logo onClick={handleClick} />
+        ) : (
+          <SubMenu onClick={handleClick} />
+        )}
+        {props.logged || <button className="header__enter-btn">ВХОД</button>}
+      </header>
     </>
   );
   

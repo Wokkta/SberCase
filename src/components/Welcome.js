@@ -2,7 +2,6 @@ import Benefits from "./Benefits";
 import Catalog from "./Catalog";
 import Header from "./Header";
 import Try_Btn from "./Try_Btn";
-import { useState } from "react";
 import Versions from "./Versions";
 import Footer from "./Footer";
 export default function Welcome(props) {

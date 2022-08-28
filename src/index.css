@@ -404,3 +404,37 @@ footer .slogan{
   z-index: 1;
   overflow: auto;
 }
+.education-sub-page{
+  margin-left: 22px;
+}
+.exit-arrow{
+  background-image: url("pictures/Arrow\ 1.png");
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 20px;
+  margin-top: 45px;
+
+}
+.category-slogan{
+  background: linear-gradient(88.6deg, #FF640C 0%, #FF506A 47.3%, #7F00CD 93.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.desc{
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 145.4%;
+    color: #000000;
+    margin-bottom: 37px;
+    max-width: 335px;
+    text-align: start;
+}
+.reading{
+  background: url("pictures/reading.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+    margin: 12px 0 0;
+    width: calc(100vw - 78px);
+    margin-left: 13vw;
+}

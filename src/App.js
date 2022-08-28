@@ -9,10 +9,12 @@ function App() {
       <div className="App">
         <Welcome logged={false}></Welcome>
       </div>
-      <Routes>
+      {/* 
+       <Routes>
         <Route path='/' element={<Welcome />}/>
         <Route path='/education' element={<Education/>}/>
-      </Routes>
+      </Routes> 
+      */}
     </>
   );
 }

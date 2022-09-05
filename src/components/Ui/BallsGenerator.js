@@ -25,13 +25,11 @@ export default function BallsGenerator({value}) {
             zIndex: "1",
             borderRadius: "50%",
             textAlign: "center",
-            top: String(Math.floor(Math.random() * 100)) + "vh",
-            left: String(Math.floor(Math.random() * 100)) + "vw",
+            top: String(Math.floor(Math.random() * (100 +50)) -50) + "vh",
+            left: String(Math.floor(Math.random() * (100 +50)) -50) + "vw",
           }}
           w
-        >
-          
-        </div>
+        ></div>
       ))}
     </>
   );

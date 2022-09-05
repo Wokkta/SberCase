@@ -3,6 +3,7 @@ export default function BallsGenerator({value}) {
   for (let i = 0; i < Math.floor(Math.random() * value); i++) {
     balls.push(i);
   }
+  
   function counter() {
     let n = 0;
     return () => {

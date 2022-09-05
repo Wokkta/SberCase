@@ -1,11 +1,13 @@
 import Try_Btn from "./Ui/Try_Btn";
-
 export default function Benefits(params) {
-  return(<>
-    <section className="section-two benefits">
+  return (
+    <>
+      <section className="section-two benefits section">
+        {/*<BallsGenerator value={30} />*/}
         <div className="slogan">
-          <span>Помогаем</span> родителям<br /> сориентироваться в многообразии курсов, секций,
-          мероприятий и <span>сделать</span> <span>правильный выбор.</span>
+          <span>Помогаем</span> родителям
+          <br /> сориентироваться в многообразии курсов, секций, мероприятий и{" "}
+          <span>сделать</span> <span>правильный выбор.</span>
         </div>
         <div className="graphic"></div>
         <h2 className="sec-two__title">Вы получите:</h2>
@@ -26,7 +28,6 @@ export default function Benefits(params) {
         </ul>
         <Try_Btn />
       </section>
-      
-      </>
-  )
+    </>
+  );
 }

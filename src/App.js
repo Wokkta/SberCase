@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <div className="App">
-      <BallsGenerator value={30} />
-        <Welcome logged={false}></Welcome>
+        <BallsGenerator value={30} />
+        <Welcome logged={false} balls={<BallsGenerator value={30} />}></Welcome>
       </div>
       {/* 
        <Routes>

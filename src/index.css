@@ -466,3 +466,6 @@ footer .slogan{
     height: 38px;
     position: absolute;
 }
+.section{
+  position: relative;
+}

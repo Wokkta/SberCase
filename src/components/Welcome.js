@@ -9,7 +9,8 @@ export default function Welcome(props) {
   return (
     <>
       <Layout logged={props.logged}>
-        <section className="section-one">
+        <section className="section-one section">
+          {props.balls}
           <div className="slogan slogan-sec-one">
             Создайте <span>подборку </span>мероприятий, секции и курсов{" "}
             <span>под интересы Вашего ребенка</span>
@@ -19,12 +20,15 @@ export default function Welcome(props) {
             <div className="rocket-boy"></div>
           </div>
         </section>
+        {props.balls}
         <Benefits />
-        <section className="section-three">
+        <section className="section-three section">
+          {props.balls}
           <Catalog />
           <Try_Btn />
         </section>
-        <section className="section-four">
+        <section className="section-four section">
+          {props.balls}
           <Versions />
         </section>
       </Layout>

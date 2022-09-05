@@ -1,4 +1,4 @@
-import Logo from "./Logo"
+import Logo from "./Ui/Logo"
 import { useState } from "react";
 import SubMenu from "./SubMenu";
 export default function Header(props) {

@@ -1,4 +1,4 @@
-import Cross from "./Cross"
+import Cross from "./Ui/Cross"
 import {Link, Route} from "react-router-dom"
 export default function SubMenu({onClick}) {
   return (

@@ -2,11 +2,13 @@ import './App.css';
 import {Routes,Route,Link} from "react-router-dom"
 import Welcome from './components/Welcome';
 import Education from './components/Education';
+import BallsGenerator from './components/Ui/BallsGenerator';
 
 function App() {
   return (
     <>
       <div className="App">
+      <BallsGenerator value={30} />
         <Welcome logged={false}></Welcome>
       </div>
       {/* 

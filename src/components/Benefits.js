@@ -1,4 +1,4 @@
-import Try_Btn from "./Try_Btn";
+import Try_Btn from "./Ui/Try_Btn";
 
 export default function Benefits(params) {
   return(<>

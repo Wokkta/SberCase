@@ -39,7 +39,9 @@ export default function Reg_pg_1(props) {
           </Link>
         </form>
         <span>Уже есть аккаунт?</span>
-        <button className="enter-btn">войти</button>
+        <Link to="/enter">
+          <button className="enter-btn">войти</button>
+        </Link>
       </section>
     </>
   );

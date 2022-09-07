@@ -17,6 +17,11 @@ export default function Reg_pg_3(params) {
         <Link to="/enter">
           <button className="reg-btn">ВХОД</button>
         </Link>
+        <div className="balls">
+          <div className="ball-1"></div>
+          <div className="ball-2"></div>
+          <div className="ball-3"></div>
+        </div>
       </section>
     </>
   );

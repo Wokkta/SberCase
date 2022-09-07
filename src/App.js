@@ -13,13 +13,6 @@ function App() {
   return (
     <>
       <div className="App">
-        {false && (
-          <Welcome
-            logged={logged}
-            setLogged={setLogged}
-            balls={<BallsGenerator value={30} />}
-          ></Welcome>
-        )}
       </div>
       {
         <Routes>

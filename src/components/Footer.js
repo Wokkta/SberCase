@@ -1,6 +1,6 @@
 export default function Footer(params) {
   return (
-    <footer>
+    <footer id="footer">
       <div className="footer-top">
         <h1 className="slogan">Наши контакты</h1>
         <div className="vk"></div>

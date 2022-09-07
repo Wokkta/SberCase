@@ -1,10 +1,10 @@
 import Footer from "./Footer";
 import Header from "./Header";
 
-export default function Layout({children,logged}) {
+export default function Layout({children,logged,setLogged}) {
   return (
     <>
-      <Header logged={logged} />
+      <Header logged={logged} setLogged={setLogged} />
       {children}
       <Footer />
     </>

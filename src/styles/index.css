@@ -11,11 +11,11 @@ a{
 }
 @font-face {
   font-family: "Noah-Medium";
-  src: url(fonts/Noah-Medium.ttf);
+  src: url(../fonts/Noah-Medium.ttf);
 }
 @font-face {
   font-family: "Noah-Regular";
-  src: url(fonts/Noah-Regular.ttf);
+  src: url(../fonts/Noah-Regular.ttf);
 }
 button{
   text-transform: uppercase;
@@ -120,7 +120,7 @@ header{
   background: linear-gradient(to right, rgba(255, 100, 12, 1), rgba(255, 80, 106, 1) 50%, rgba(127, 0, 205, 1));
 }
 .rocket-boy{
-  background: url("pictures/rocket-boy.png");
+  background: url("../pictures/rocket-boy.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 100%;
@@ -137,7 +137,7 @@ header{
   position: relative;
 }
 .graphic{
-  background: url("pictures/graphic.png");
+  background: url("../pictures/graphic.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 272px;
@@ -218,7 +218,7 @@ header{
   
 }
 .catalog-category-img-1{
-  background: url("pictures/bacalavr.png");
+  background: url("../pictures/bacalavr.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -228,7 +228,7 @@ header{
   
 }
 .catalog-category-img-2{
-  background: url("pictures/palette.png");
+  background: url("../pictures/palette.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -237,7 +237,7 @@ header{
   border:none;
 }
 .catalog-category-img-3{
-  background: url("pictures/caseStudy.png");
+  background: url("../pictures/caseStudy.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -247,7 +247,7 @@ header{
   
 }
 .catalog-category-img-4{
-  background: url("pictures/balls.png");
+  background: url("../pictures/balls.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -256,7 +256,7 @@ header{
   border:none;
 }
 .catalog-category-img-5{
-  background: url("pictures/socActive.png");
+  background: url("../pictures/socActive.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -339,7 +339,7 @@ footer .slogan{
     -webkit-text-fill-color: transparent;
 }
 .vk{
-  background: url("pictures/vk.png");
+  background: url("../pictures/vk.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -347,7 +347,7 @@ footer .slogan{
   width: 24px;
 }
 .tg {
-  background: url("pictures/tg.png");
+  background: url("../pictures/tg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -412,7 +412,7 @@ footer .slogan{
   margin-left: 22px;
 }
 .exit-arrow{
-  background-image: url("pictures/Arrow\ 1.png");
+  background-image: url("../pictures/Arrow\ 1.png");
   background-repeat: no-repeat;
   width: 18px;
   height: 20px;
@@ -434,7 +434,7 @@ footer .slogan{
     text-align: start;
 }
 .reading{
-  background: url("pictures/reading.png");
+  background: url("../pictures/reading.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 100%;
@@ -443,7 +443,7 @@ footer .slogan{
     margin-left: 13vw;
 }
 .ball-1{
-  background: url("pictures/Ball1.png");
+  background: url("../pictures/Ball1.png");
   background-repeat: no-repeat;
   background-size: contain;
   height: 228px;
@@ -451,7 +451,7 @@ footer .slogan{
   position: absolute;
 }
 .ball-2{
-  background: url("pictures/Ball2.png");
+  background: url("../pictures/Ball2.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 70px;
@@ -459,7 +459,7 @@ footer .slogan{
     position: absolute;
 }
 .ball-3{
-  background: url("pictures/Ball3.png");
+  background: url("../pictures/Ball3.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 39px;
@@ -469,3 +469,4 @@ footer .slogan{
 .section{
   position: relative;
 }
+

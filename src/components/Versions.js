@@ -3,6 +3,7 @@ import Try_Btn from "./Ui/Try_Btn";
 export default function Versions(params) {
   return (
     <>
+    
       <div className="versions-list">
         <div className="option option-1">
           <h1 className="slogan">Бесплатная версия</h1>

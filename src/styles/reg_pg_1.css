@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+}
+.profile {
+  background-image: url("../pictures/Profile.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 100%;
+  width: 70px;
+  margin: auto;
+}
+.img{
+  width: 70px;
+  max-height: 70px;
+  display: flex;
+  margin: auto;
+}
+.reg-page-1 {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  column-gap: 0;
+  height: 50vh;
+  
+}
+.reg-form-1{
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin: auto;
+}
+input{
+  width: 320px;
+  height: 42px;
+  border-radius: 10px;
+  padding-left: 27px;
+  background: linear-gradient(#fff, #fff) padding-box,
+      linear-gradient(88.6deg, #FF640C 0%, #FF506A 47.3%, #7F00CD 93.16%) border-box;
+    border: 1px solid transparent;
+    margin: auto;
+}
+.reg-btn{
+  color:white;
+  width: 182px;
+  height: 42px;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  background: linear-gradient(to right, rgba(255, 100, 12, 1), rgba(255, 80, 106, 1) 50%, rgba(127, 0, 205, 1));
+  margin: auto;
+}
+.enter-btn{
+  text-transform: uppercase;
+  background: linear-gradient(88.6deg, #FF640C 0%, #FF506A 47.3%, #7F00CD 93.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  border:none;
+  position: relative;
+  margin: auto;
+  
+}
+.enter-btn::after{
+  content:"";
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(88.6deg, #FF640C 0%, #FF506A 47.3%, #7F00CD 93.16%);
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  margin: auto;
+}

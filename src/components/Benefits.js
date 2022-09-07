@@ -2,7 +2,7 @@ import Try_Btn from "./Ui/Try_Btn";
 export default function Benefits(params) {
   return (
     <>
-      <section className="section-two benefits section">
+      <section className="section-two benefits section" id="ктоМы">
         {/*<BallsGenerator value={30} />*/}
         <div className="slogan">
           <span>Помогаем</span> родителям

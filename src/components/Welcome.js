@@ -5,12 +5,12 @@ import Try_Btn from "./Ui/Try_Btn";
 import Versions from "./Versions";
 import Footer from "./Footer";
 import Layout from "./Layout";
-export default function Welcome(props) {
+export default function Welcome({logged,setLogged,balls}) {
   return (
     <>
-      <Layout logged={props.logged}>
-        <section className="section-one section">
-          {props.balls}
+      <Layout logged={logged} setLogged={setLogged}>
+        <section className="section-one section" id="">
+          {balls}
           <div className="slogan slogan-sec-one">
             Создайте <span>подборку </span>мероприятий, секции и курсов{" "}
             <span>под интересы Вашего ребенка</span>
@@ -20,15 +20,15 @@ export default function Welcome(props) {
             <div className="rocket-boy"></div>
           </div>
         </section>
-        {props.balls}
-        <Benefits />
-        <section className="section-three section">
-          {props.balls}
+        {balls}
+        <Benefits id="ктоМы" />
+        <section className="section-three section" id="1">
+          {balls}
           <Catalog />
           <Try_Btn />
         </section>
-        <section className="section-four section">
-          {props.balls}
+        <section className="section-four section" id="компаниям">
+          {balls}
           <Versions />
         </section>
       </Layout>

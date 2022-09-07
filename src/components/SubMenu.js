@@ -12,14 +12,23 @@ export default function SubMenu({onClick}) {
             </Link>
           </li>
           <li className="subItem">
-            <Link to="/education" onClick={onClick}>
+            <a  onClick={onClick} href="#ктоМы">
               Кто мы и что мы
-            </Link>
+            </a>
           </li>
-          <li className="subItem">Родителям</li>
-          <li className="subItem">Компаниям</li>
-          <li className="subItem">Контакты</li>
-          <li className="subItem">Личный кабинет</li>
+
+          <a className="subItem" onClick={onClick} href="#компаниям">
+            Родителям
+          </a>
+          <a className="subItem" onClick={onClick} href="#компаниям">
+            Компаниям
+          </a>
+          <a className="subItem" onClick={onClick} href="#footer">
+            Контакты
+          </a>
+          <a className="subItem" onClick={onClick} href="#">
+            Личный кабинет
+          </a>
         </ul>
       </div>
       <div className="bg_blur"></div>

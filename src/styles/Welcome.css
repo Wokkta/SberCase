@@ -1,15 +1,16 @@
 .ball-11 {
   background: url("../pictures/Ball1_Cropped.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 68%;
-    height: 37%;
-    object-fit: cover;
-    object-position: 0 0;
-  position: absolute;
-
-  bottom: -4vh;
-    right: -16vw;
+    background-repeat: no-repeat;
+      background-size: contain;
+      width: 51%;
+      height: 37%;
+      object-fit: cover;
+      object-position: 0 0;
+      position: absolute;
+      
+      bottom: -4vh;
+      right: 0vw;
+    
   
 }
 

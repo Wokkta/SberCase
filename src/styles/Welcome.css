@@ -1,5 +1,5 @@
 .ball-11 {
-  background: url("../pictures/Ball1.png");
+  background: url("../pictures/Ball1_Cropped.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 68%;
@@ -8,8 +8,8 @@
     object-position: 0 0;
   position: absolute;
 
-  bottom: -9vh;
-    right: -3vw;
+  bottom: -4vh;
+    right: -16vw;
   
 }
 
@@ -40,5 +40,4 @@
 }
 .balls{
   z-index: 0;
-  
 }

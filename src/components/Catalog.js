@@ -1,10 +1,13 @@
+import {  Link } from "react-router-dom";
 export default function Catalog(items) {
   return (
     <div className="catalog">
-      <a href="#" alt="" className="catalog-category catalog-category-1">
-        <div className="catalog-category-img-1" />
-        Образование
-      </a>
+      <Link to="/education">
+        <a href="#" alt="" className="catalog-category catalog-category-1">
+          <div className="catalog-category-img-1" />
+          Образование
+        </a>
+      </Link>
       <a href="#" alt="" className="catalog-category catalog-category-2">
         <div className="catalog-category-img-2" />
         творчество

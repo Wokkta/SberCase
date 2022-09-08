@@ -9,7 +9,7 @@ export default function Reg_pg_2(params) {
     setResend(false);
     setTimeout(() => {
       setResend(true);
-    }, 1000);
+    }, 30000);
   }
   function handleSubmit(e) {
     e.preventDefault();

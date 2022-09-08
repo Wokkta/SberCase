@@ -1,0 +1,44 @@
+.ball-11 {
+  background: url("../pictures/Ball1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 68%;
+    height: 37%;
+    object-fit: cover;
+    object-position: 0 0;
+  position: absolute;
+
+  bottom: -9vh;
+    right: -3vw;
+  
+}
+
+.ball-22 {
+  background: url("../pictures/Ball2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  object-fit: cover;
+    object-position: 0 0;
+  bottom: -7vh;
+  right: 50vw;
+}
+
+.ball-33 {
+  background: url("../pictures/Ball3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 62px;
+  height: 65px;
+  position: absolute;
+  object-fit: cover;
+    object-position: 0 0;
+  top: 15vh;
+  right: 15vw;
+}
+.balls{
+  z-index: 0;
+  
+}

@@ -11,6 +11,9 @@
   height: 50vh;
 
 }
+.img{
+  margin-bottom: 0;
+}
 .reg-txt{
   
     background: linear-gradient(88.6deg, #FF640C 0%, #FF506A 47.3%, #7F00CD 93.16%);
@@ -18,7 +21,8 @@
     -webkit-text-fill-color: transparent;
     border: none;
     position: relative;
-    margin: auto;
+    margin: 50px auto auto;
+    
     font-weight: 500;
       font-size: 23px;
       line-height: 145.4%;
@@ -30,8 +34,8 @@
   height: 228px;
   width: 222px;
   position: absolute;
-  right: -2px;
-  bottom: 0;
+  padding-bottom: 100%;
+  right: 0;
 }
 
 .ball-2 {
@@ -41,8 +45,9 @@
   width: 85px;
   height: 85px;
   position: absolute;
-  right: 195px;
-    bottom: 5px;
+  padding-bottom: 100%;
+  bottom: -33vh;
+  right: 50vw;
 }
 
 .ball-3 {
@@ -52,6 +57,7 @@
   width: 62px;
   height: 65px;
   position: absolute;
-  top: 125px;
-  right: 60px;
+  padding-bottom: 100%;
+  top: 18vh;
+  right: 15vw;
 }

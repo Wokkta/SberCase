@@ -131,10 +131,13 @@ header{
   
   
 }
-.image{
+.image-1{
   max-height: 410px;
   max-width: 410px;
   position: relative;
+}
+.image-2{
+  
 }
 .graphic{
   background: url("../pictures/graphic.png");
@@ -142,8 +145,12 @@ header{
     background-repeat: no-repeat;
     width: 272px;
     height: 272px;
+    padding-bottom: 100%;
   align-self: flex-end;
   margin-bottom: 28px;
+  width: calc(100vw - 23px);
+    position: relative;
+    z-index: 1;
     
     
 }

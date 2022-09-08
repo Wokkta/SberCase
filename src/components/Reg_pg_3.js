@@ -15,7 +15,7 @@ export default function Reg_pg_3(params) {
           зарегистрированы!
         </span>
         <Link to="/enter">
-          <button className="reg-btn">ВХОД</button>
+          <button className="reg-btn">ВОЙТИ</button>
         </Link>
         <div className="balls">
           <div className="ball-1"></div>

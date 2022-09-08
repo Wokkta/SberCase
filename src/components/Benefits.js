@@ -9,7 +9,10 @@ export default function Benefits(params) {
           <br /> сориентироваться в многообразии курсов, секций, мероприятий и{" "}
           <span>сделать</span> <span>правильный выбор.</span>
         </div>
-        <div className="graphic"></div>
+        <div className="image-2">
+          <div className="graphic"></div>
+        </div>
+        
         <h2 className="sec-two__title">Вы получите:</h2>
         <ul className="benefits_list">
           <li className="benefits_list-item">

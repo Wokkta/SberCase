@@ -12,11 +12,13 @@ function App() {
   const [logged,setLogged] = useState(true);
   return (
     <>
-      <div className="App">
-      </div>
+      <div className="App"></div>
       {
         <Routes>
-          <Route path="/" element={<Welcome />} />
+          <Route
+            path="/"
+            element={<Welcome logged={logged} setLogged={setLogged} />}
+          />
           <Route path="/education" element={<Education />} />
           <Route path="/reg1" element={<Reg_pg_1 />} />
           <Route path="/reg2" element={<Reg_pg_2 />} />

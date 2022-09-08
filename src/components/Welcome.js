@@ -5,6 +5,7 @@ import Try_Btn from "./Ui/Try_Btn";
 import Versions from "./Versions";
 import Footer from "./Footer";
 import Layout from "./Layout";
+import "../styles/Welcome.css"
 export default function Welcome({logged,setLogged,balls}) {
   return (
     <>
@@ -16,8 +17,13 @@ export default function Welcome({logged,setLogged,balls}) {
             <span>под интересы Вашего ребенка</span>
           </div>
           <Try_Btn />
-          <div className="image">
+          <div className="image-1">
             <div className="rocket-boy"></div>
+          </div>
+          <div className="balls">
+            <div className="ball-11"></div>
+            <div className="ball-22"></div>
+            <div className="ball-33"></div>
           </div>
         </section>
         {balls}

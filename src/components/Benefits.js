@@ -1,10 +1,11 @@
 import Try_Btn from "./Ui/Try_Btn";
+import "../styles/benefits.css";
 export default function Benefits(params) {
   return (
     <>
       <section className="section-two benefits section" id="ктоМы">
         {/*<BallsGenerator value={30} />*/}
-        <div className="slogan">
+        <div className="slogan slogan-sec-two">
           <span>Помогаем</span> родителям
           <br /> сориентироваться в многообразии курсов, секций, мероприятий и{" "}
           <span>сделать</span> <span>правильный выбор.</span>

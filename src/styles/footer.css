@@ -1,0 +1,47 @@
+.footer-top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+}
+
+footer {
+  margin-left: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  margin-bottom: 125px;
+}
+
+footer .slogan {
+  background: linear-gradient(88.6deg, #FF640C 0%, #FF506A 47.3%, #7F00CD 93.16%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.vk {
+  background: url("../pictures/vk.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 24px;
+  width: 24px;
+}
+
+.tg {
+  background: url("../pictures/tg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 16px;
+  width: 16px;
+}
+
+.policy {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 145.4%;
+  text-decoration-line: underline;
+  color: #828282;
+}

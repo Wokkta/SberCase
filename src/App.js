@@ -3,7 +3,6 @@ import {Routes,Route,Link} from "react-router-dom"
 import { useState } from "react";
 import Welcome from './components/Welcome';
 import Education from './components/Education';
-import BallsGenerator from './components/Ui/BallsGenerator';
 import Reg_pg_1 from "./components/Reg_pg_1";
 import Reg_pg_2 from "./components/Reg_pg_2";
 import Reg_pg_3 from "./components/Reg_pg_3";

@@ -6,12 +6,12 @@ import Versions from "./Versions";
 import Footer from "./Footer";
 import Layout from "./Layout";
 import "../styles/Welcome.css"
-export default function Welcome({logged,setLogged,balls}) {
+export default function Welcome({logged,setLogged}) {
   return (
     <>
       <Layout logged={logged} setLogged={setLogged}>
         <section className="section-one section" id="">
-          {balls}
+          
           <div className="slogan slogan-sec-one">
             Создайте <span>подборку </span>мероприятий, секции и курсов{" "}
             <span>под интересы Вашего ребенка</span>
@@ -26,15 +26,15 @@ export default function Welcome({logged,setLogged,balls}) {
             <div className="ball-33"></div>
           </div>
         </section>
-        {balls}
+        
         <Benefits id="ктоМы" />
         <section className="section-three section" id="1">
-          {balls}
+          
           <Catalog />
           <Try_Btn />
         </section>
         <section className="section-four section" id="компаниям">
-          {balls}
+          
           <Versions />
         </section>
       </Layout>

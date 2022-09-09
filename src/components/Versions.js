@@ -1,5 +1,5 @@
 import Try_Btn from "./Ui/Try_Btn";
-
+import "../styles/versions.css";
 export default function Versions(params) {
   return (
     <>

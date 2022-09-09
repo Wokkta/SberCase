@@ -1,9 +1,7 @@
 import Benefits from "./Benefits";
 import Catalog from "./Catalog";
-import Header from "./Header";
 import Try_Btn from "./Ui/Try_Btn";
 import Versions from "./Versions";
-import Footer from "./Footer";
 import Layout from "./Layout";
 import "../styles/Welcome.css"
 export default function Welcome({logged,setLogged}) {

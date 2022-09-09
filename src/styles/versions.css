@@ -35,13 +35,13 @@
 }
 
 .section-four .slogan {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 23px;
-  line-height: 145.4%;
-  background: linear-gradient(88.6deg, #FF640C 0%, #FF506A 47.3%, #7F00CD 93.16%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  
+    font-size: 23px;
+  width: 189px;
+    background: linear-gradient(88.6deg, #FF640C 0%, #FF506A 47.3%, #7F00CD 93.16%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
   display: flex;
   justify-content: flex-start;
   margin-bottom: 13px;

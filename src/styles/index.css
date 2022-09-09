@@ -196,17 +196,7 @@ header{
   z-index: 1;
   overflow: auto;
 }
-.education-sub-page{
-  margin-left: 22px;
-}
-.exit-arrow{
-  background-image: url("../pictures/Arrow\ 1.png");
-  background-repeat: no-repeat;
-  width: 18px;
-  height: 20px;
-  margin-top: 45px;
 
-}
 
 .desc{
   font-weight: 400;
@@ -217,15 +207,7 @@ header{
     max-width: 335px;
     text-align: start;
 }
-.reading{
-  background: url("../pictures/reading.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 100%;
-    margin: 12px 0 0;
-    width: calc(100vw - 78px);
-    margin-left: 13vw;
-}
+
 .ball-1{
   background: url("../pictures/Ball1.png");
   background-repeat: no-repeat;

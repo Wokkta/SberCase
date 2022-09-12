@@ -18,7 +18,7 @@ export default function Reg_pg_1(props) {
           <img className="profile" />
         </div>
 
-        <span>Укажите, пожалуйста, данные для регистрации</span>
+        <span>Укажите, пожалуйста, данные для <br/>регистрации</span>
         <form className="reg-form-1" onSubmit={handleSubmit}>
           <input
             type="text"

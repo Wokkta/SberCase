@@ -7,13 +7,14 @@ export default function Benefits(params) {
         {/*<BallsGenerator value={30} />*/}
         <div className="slogan slogan-sec-two">
           <span>Помогаем</span> родителям
-          <br /> сориентироваться в многообразии курсов, секций, мероприятий и{" "}
-          <span>сделать</span> <span>правильный выбор.</span>
+          <br /> сориентироваться в многообразии
+          <br /> курсов, секций, мероприятий и<span> сделать</span>
+          <br /> <span>правильный выбор.</span>
         </div>
         <div className="image-2">
           <div className="graphic"></div>
         </div>
-        
+
         <h2 className="sec-two__title">Вы получите:</h2>
         <ul className="benefits_list">
           <li className="benefits_list-item">

@@ -9,7 +9,7 @@
   width: 70px;
   margin: auto;
   margin-top: -27px;
-  margin-bottom: 27px;
+  
 }
 .img{
   width: 70px;
@@ -26,13 +26,13 @@
   column-gap: 0;
   height: 50vh;
   position: relative;
+  gap: 28px;
 }
 
 .reg-form-1{
   display: flex;
   flex-direction: column;
   gap: 28px;
-  margin: auto;
 }
 input{
   width: 320px;
@@ -72,4 +72,9 @@ input{
   left: 0;
   bottom: 2px;
   margin: auto;
+}
+.have-acc{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
